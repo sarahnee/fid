@@ -3,7 +3,7 @@
     
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Sarah Nee</title>
 <style>
 
@@ -76,7 +76,7 @@
 <body>
 <h1>Sarah Nee</h1>
 
-<nav > <ul style="list-style-type:square;">
+<nav > <ul>
 <li><a href="#startabout">About Me</a></li>
 <li><a href="#startskill">Skills</a></li>
 <li><a href="#startp">Portfolio</a></li>
@@ -120,23 +120,58 @@
 
 <h2 id="startp">Portfolio</h2>
 <h3>Original Artwork</h3>
-<p>
-    <img src="images/robot.jpg" alt="vector image of a robot holding balloons"><br>
-
-  <img src="images/peacock.jpg" alt="black and white illustrated image of peacock">
+<p><picture>
+    <source media="(min-width: 480px)"
+    srcset="images/robot1200.jpg 1200w,
+    images/robot800.jpg 800w"
+    sizes="80vw">
+    <img src="images/robot400.jpg" alt="vector image of a robot holding balloons">
+  </picture></a><br>
+    
+<picture>
+    <source media="(min-width: 480px)"
+    srcset="images/peacock1200.jpg 1200w,
+    images/peacock800.jpg 800w"
+    sizes="80vw">
+    <img src="images/peacock400.jpg" alt="black and white illustrated image of peacock">
+</picture>
 <br>
  These images were brought to life by going from sketch to vector in Adobe Illustrator </p>
 
  <h3>Product Design</h3>
  <p>
-  <img src="images/notebook.jpg" alt="product mock-up of notebook with geometric fish pattern"><br> 
-  <img src="images/menu.jpg" alt="menu for ice cream restaurant">
-<img src="images/menu2.jpg" alt="menu page 2 for ice cream restaurant">
+    <picture>
+        <source media="(min-width: 480px)"
+        srcset="images/notebook1200.jpg 1200w,
+        images/notebook800.jpg 800w"
+        sizes="80vw">
+        <img src="images/notebook400.jpg" alt="product mock-up of notebook with geometric fish pattern">
+    </picture><br>
+    <picture>
+        <source media="(min-width: 480px)"
+        srcset="images/menu1200.png 1200w,
+        images/menu800.jpg 800w"
+        sizes="80vw">
+        <img src="images/menu400.png" alt="Ice Cream menu cover">
+    </picture>
+    <picture>
+        <source media="(min-width: 480px)"
+        srcset="images/menu21200.png 1200w,
+        images/menu800.jpg 800w"
+        sizes="80vw">
+        <img src="images/menu400.png" alt="Ice cream menu page 2">
+    </picture>
+</p>
 
- </p>
  <h3>Photoshop</h3>
- <p>
-  <img src="images/explorer.jpg" alt="photoshop image of child sailing through clouds on paper boat">
+ <p><picture>
+    <source media="(min-width: 480px)"
+    srcset="images/explorer1200.jpg 1200w,
+    images/explorer800.jpg 800w"
+    sizes="80vw">
+    <img src="images/explorer400.jpg" alt="photoshop image of child sailing through clouds on paper boat">
+</picture>
+  
  </p>
 <h2 id="startc">Contact</h2>
 <p> <a href="https://github.com/sarahnee" target="_blank"><img src="icons/github.svg" width="60" height="60" alt="github"></a>
