@@ -18,12 +18,15 @@ font-family: "Abril Fatface", Georgia, 'Times New Roman', Times, serif;
 font-weight: bold;
 color: #f5d4c3;
 text-transform: uppercase;
+text-shadow: .1em .1em .1em black;
 border-bottom: 6px solid #E09789;
 margin-top: 30px;
 margin-bottom: 0px;
 
 }
-
+.drop-shadow img{
+    filter: drop-shadow(7px 7px 7px black);
+}
 nav {
      font-size:125%;
      color: #e09789;
