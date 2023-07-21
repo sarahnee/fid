@@ -1,10 +1,10 @@
 body {
-    background-color: #d2dc9b;
+    background-color: #b6c8b8;
   font-family: Georgia, serif;
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
-  background: #d2dc96 url(images/blackgoose.png) no-repeat center 100px fixed;
+  background: #b6c8b8 url(images/blackgoose.png) no-repeat center 100px fixed;
 }
 header {
   margin-top: 0;
@@ -14,37 +14,38 @@ header {
   background: url(images/purpledot.png) left top repeat-y,
               url(images/purpledot.png) right top repeat-y,
               url(images/gooseshadow.png) 90% bottom no-repeat;
-  background-color: rgba(255, 255, 255, .5);           
+  background-color: rgba(255, 255, 255, .3);           
 }
-
 a {
-  text-decoration: none;
-}
-a:link{
-    color:#993399
-}
-a:visited{
-    color:#937393;
-}
-a:focus{
-    color: #c700f2;
-    background-color: #fff;
-}
+    text-decoration: none;
+  }
+  a:link{
+      color:#b54e5f
+  }
+  a:visited{
+      color:#d47526;
+  }
+  a:focus{
+      color: #d47526;
+      background-color: #fff;
+  }
+  
+  a:hover{
+      color: #d47526;
+      background-color: #fff;
+  }
+  a:active{
+      color: #bb2237;
+  }
+      
 
-a:hover{
-    color: #c700f2;
-    background-color: #fff;
-}
-a:active{
-    color: #ff00ff;
-}
 h1 {
-    color: #993399;
+    color: #bb2237;
   font: bold 1.5em Georgia, serif;
   text-shadow: .1em .1em .2em gray;
 }
 h2 {
-    color: #cc6600;
+    color: #bb2237;
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .5em;
@@ -69,7 +70,8 @@ ul {
   font-style: italic;
 }
 p.warning, sup {
-  font-size: small;
+  font-size: x-small;
+  color: #bb2237;
 }
 .label {
   font-weight: bold;
