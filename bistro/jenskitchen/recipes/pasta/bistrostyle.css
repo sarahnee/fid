@@ -8,11 +8,8 @@ margin: 0 15% 0;
 header{
 margin-top: 20px;
 padding: 3em 1em 2em 1em;
-background:
-url(images/gooseshadow.png) 90% bottom no-repeat;
 background-color: rgba(192, 234, 248, 0.3);
 border-radius: 70px 70px 70px 70px ;
-
 }
 a {
 text-decoration: none;
@@ -54,7 +51,7 @@ ul {
     padding: 8px;
     }
 li{
-    display: inline;
+   
     padding: 16px;
 }
 

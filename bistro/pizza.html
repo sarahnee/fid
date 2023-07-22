@@ -3,41 +3,112 @@
 <head>
   <meta charset="utf-8" >
    <title>Blackstone Bistro: Pizza-on-Demand</title>
-   <style type="text/css">
-      ol, ul { 
-     list-style-type: none;
-      }
-      body {
-        background-color: #b6c8b8;
-  font-family: Georgia, serif;
-  font-size: 100%;
-  line-height: 175%;
-  margin: 0 15% 0;
-    }
-    
-    h1 {
-        text-align: center;
-        font: bold 2em Georgia, serif;
-  text-shadow: .1em .1em .2em gray;
-    text-transform: uppercase;
-    border-bottom: 1px solid #102031;
-    margin-top: 30px;
-    color: #102031;
- 
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200&display=swap" rel="stylesheet">
+
+<style>
+body {
+  background-color: #f7f3e7;
+font-family: "Ysabeau Infant", sans-serif;
+font-size: 100%;
+line-height: 175%;
+margin: 0 15% 0;
 }
-h2 {
-    color: #bb2237;
-  font-size: 1.25em;
-  text-transform: uppercase;
-  letter-spacing: .25em;
+header{
+margin-top: 20px;
+padding: 3em 1em 2em 1em;
+background-color: rgba(192, 234, 248, 0.3);
+border-radius: 70px 70px 70px 70px ;
+}
+a {
+text-decoration: none;
+}
+a:link{
+color:#102031
+}
+a:visited{
+color:#fe5001;
+}
+a:focus{
+color: #fe5001;
+background-color: #ffab01;
+}
+
+a:hover{
+color: #fe5001;
+background-color: #ffab01;
+}
+a:active{
+color: #bb2237;
+}
+
+h1 {
+  text-align: center;
+  font: bold 3em  "Cinzel", Georgia, serif;
+text-shadow: .1em .1em .2em gray;
+/*border-bottom: 3px solid #016241;*/
+margin-top: 30px;
+color: #016241;
 
 }
-   </style>
+nav {
+   text-align: center;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  }
+li{
+ 
+  padding: 16px;
+}
+
+
+h2 {
+color: #bb2237;
+font-size: 1.25em;
+text-transform: uppercase;
+letter-spacing: .25em;
+
+}
+  
+
+h3 {
+text-align: center;
+font-size: 1em;
+text-transform: uppercase;
+color:#bb2237;
+
+}
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+footer {
+  border-top: 2px solid #ffab01;
+  text-align: center;
+  padding-top: 1em;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-left: .5em;
+}
+small {
+color: #999;
+}
+</style>
 </head>
 
 <body>
-
+<header>
 <h1>Blackstone Bistro | Pizza-on-Demand</h1>
+</header>
 
 <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 <form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
